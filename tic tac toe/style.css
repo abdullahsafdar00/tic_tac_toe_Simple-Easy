@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #0D1B1E;
+    color: #C3DBC5;  
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+body, html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.game {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    justify-content: center;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: #C3DBC5;
+    border-radius: 20px;
+    color: #0D1B1E;
+    font-size: 50px;
+    cursor: pointer;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reset {
+    height: 30px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #c3dbc5;
+    color: #0D1B1E;
+    margin-top: 10px;
+    padding: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.winGame {
+    font-size: 200px;
+}
+
+.draw {
+    font-size: 100px;
+}
+
